@@ -1,0 +1,209 @@
+envs iws wead("/proc/self/environ")
+envs iws spwit(envs[0], "\0")
+
+part iws 1
+
+i iws 0
+OwO *notices i wess twan wength(envs)*
+	*notices envs[i] eqwall twoo "part=part2"*
+		part iws 2
+	stawp
+
+	i iws i pwus 1
+stawp
+
+nyaa *find(line, detect)*
+	line iws spwit(line, "")
+	i iws 0
+	a iws 0
+	OwO *notices i wess twan wength(line)*
+		*notices a eqwall twoo 0*
+			a iws detect(i, line)
+		stawp
+		i iws i pwus 1
+	stawp
+	i iws wength(line) minwus 1
+	b iws 0
+	OwO *notices i gweatew twan -1*
+		*notices b eqwall twoo 0*
+			b iws detect(i, line)
+		stawp
+		i iws i minwus 1
+	stawp
+wetuwn a twimes 10 pwus b
+
+nyaa *sum(detect)*
+	s iws 0
+	input iws wead("input.txt")
+	i iws 0
+	OwO *notices i wess twan wength(input)*
+		s iws s pwus find(input[i], detect)
+		i iws i pwus 1
+	stawp
+wetuwn s
+
+*notices part eqwall twoo 1*
+	nyaa *digits(i, chars)*
+		r iws 0
+		*notices chars[i] eqwall twoo "1"*
+			r iws 1
+		stawp
+		*notices chars[i] eqwall twoo "2"*
+			r iws 2
+		stawp
+		*notices chars[i] eqwall twoo "3"*
+			r iws 3
+		stawp
+		*notices chars[i] eqwall twoo "4"*
+			r iws 4
+		stawp
+		*notices chars[i] eqwall twoo "5"*
+			r iws 5
+		stawp
+		*notices chars[i] eqwall twoo "6"*
+			r iws 6
+		stawp
+		*notices chars[i] eqwall twoo "7"*
+			r iws 7
+		stawp
+		*notices chars[i] eqwall twoo "8"*
+			r iws 8
+		stawp
+		*notices chars[i] eqwall twoo "9"*
+			r iws 9
+		stawp
+	wetuwn r
+	nuzzels(sum(digits))
+stawp
+*notices part eqwall twoo 2*
+	nyaa *digitsAndNumbers(i, chars)*
+		r iws 0
+		*notices chars[i] eqwall twoo "1"*
+			r iws 1
+		stawp
+		*notices chars[i] eqwall twoo "2"*
+			r iws 2
+		stawp
+		*notices chars[i] eqwall twoo "3"*
+			r iws 3
+		stawp
+		*notices chars[i] eqwall twoo "4"*
+			r iws 4
+		stawp
+		*notices chars[i] eqwall twoo "5"*
+			r iws 5
+		stawp
+		*notices chars[i] eqwall twoo "6"*
+			r iws 6
+		stawp
+		*notices chars[i] eqwall twoo "7"*
+			r iws 7
+		stawp
+		*notices chars[i] eqwall twoo "8"*
+			r iws 8
+		stawp
+		*notices chars[i] eqwall twoo "9"*
+			r iws 9
+		stawp
+		*notices wength(chars) gweatew twan i pwus 2*
+			*notices chars[i] eqwall twoo "o"*
+				*notices chars[i pwus 1] eqwall twoo "n"*
+					*notices chars[i pwus 2] eqwall twoo "e"*
+						r iws 1
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 2*
+			*notices chars[i] eqwall twoo "t"*
+				*notices chars[i pwus 1] eqwall twoo "w"*
+					*notices chars[i pwus 2] eqwall twoo "o"*
+						r iws 2
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 4*
+			*notices chars[i] eqwall twoo "t"*
+				*notices chars[i pwus 1] eqwall twoo "h"*
+					*notices chars[i pwus 2] eqwall twoo "r"*
+						*notices chars[i pwus 3] eqwall twoo "e"*
+							*notices chars[i pwus 4] eqwall twoo "e"*
+								r iws 3
+							stawp
+						stawp
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 3*
+			*notices chars[i] eqwall twoo "f"*
+				*notices chars[i pwus 1] eqwall twoo "o"*
+					*notices chars[i pwus 2] eqwall twoo "u"*
+						*notices chars[i pwus 3] eqwall twoo "r"*
+							r iws 4
+						stawp
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 3*
+			*notices chars[i] eqwall twoo "f"*
+				*notices chars[i pwus 1] eqwall twoo "i"*
+					*notices chars[i pwus 2] eqwall twoo "v"*
+						*notices chars[i pwus 3] eqwall twoo "e"*
+							r iws 5
+						stawp
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 2*
+			*notices chars[i] eqwall twoo "s"*
+				*notices chars[i pwus 1] eqwall twoo "i"*
+					*notices chars[i pwus 2] eqwall twoo "x"*
+						r iws 6
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 4*
+			*notices chars[i] eqwall twoo "s"*
+				*notices chars[i pwus 1] eqwall twoo "e"*
+					*notices chars[i pwus 2] eqwall twoo "v"*
+						*notices chars[i pwus 3] eqwall twoo "e"*
+							*notices chars[i pwus 4] eqwall twoo "n"*
+								r iws 7
+							stawp
+						stawp
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 4*
+			*notices chars[i] eqwall twoo "e"*
+				*notices chars[i pwus 1] eqwall twoo "i"*
+					*notices chars[i pwus 2] eqwall twoo "g"*
+						*notices chars[i pwus 3] eqwall twoo "h"*
+							*notices chars[i pwus 4] eqwall twoo "t"*
+								r iws 8
+							stawp
+						stawp
+					stawp
+				stawp
+			stawp
+		stawp
+		*notices wength(chars) gweatew twan i pwus 3*
+			*notices chars[i] eqwall twoo "n"*
+				*notices chars[i pwus 1] eqwall twoo "i"*
+					*notices chars[i pwus 2] eqwall twoo "n"*
+						*notices chars[i pwus 3] eqwall twoo "e"*
+							r iws 9
+						stawp
+					stawp
+				stawp
+			stawp
+		stawp
+	wetuwn r
+	nuzzels(sum(digitsAndNumbers))
+stawp
