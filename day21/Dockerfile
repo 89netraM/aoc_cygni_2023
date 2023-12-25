@@ -4,4 +4,4 @@ RUN git clone https://github.com/89netraM/Advent-of-Code.git .
 WORKDIR /aoc/2023
 RUN dotnet build -c Release
 RUN ln /bin/true /bin/xsel
-ENTRYPOINT "/bin/pwsh" "-c" "dotnet run -c Release -- 21 \$(if (\$Env:part -eq 'part1') {'1'} else {'2'})"
+ENTRYPOINT "/bin/pwsh" "-c" "dotnet run --no-build -c Release -- 21 \$(if (\$Env:part -eq 'part1') {'1'} else {'2'})"
